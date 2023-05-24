@@ -1,23 +1,25 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Hello world
- * Description: hello world print alphabets 10-times
- * Return: Always 0.
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
  */
-
 void print_alphabet_x10(void)
 {
-	char ch[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+	char ch;
 	int i;
-	int j;
 
-	for (i = 0; i < 10; i++)
+	i = 0;
+
+	while (i < 10)
 	{
-		for (j = 0; j < 26; j++)
+		ch = 'a';
+		while (ch <= 'z')
 		{
-			_putchar(ch[j]);
+			_putchar(ch);
+			ch++;
 		}
 		_putchar('\n');
+		i++;
 	}
 }
