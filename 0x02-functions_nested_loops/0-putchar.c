@@ -12,7 +12,7 @@ int main(void)
 
 	unsigned int i;
 
-	for (i-0; i < sizeof(x); i++)
+	for (i=0; i < sizeof(x); i++)
 	{
 		_putchar(x[i]);
 	}
