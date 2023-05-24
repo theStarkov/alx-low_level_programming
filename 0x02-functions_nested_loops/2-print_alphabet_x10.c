@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10-this prints the alphabets
- * Description: write a function
+ * print_alphabet_x10(void) - Hello world
+ * Description: hello world print alphabets 10-times
  * Return: Always 0.
  */
 
 void print_alphabet_x10(void)
 {
-	char ch = 'a';
+	char ch='a';
 	int i;
 
 	for (i = 0; i <= 10; i++)
@@ -18,6 +18,6 @@ void print_alphabet_x10(void)
 			_putchar(ch);
 			ch++;
 		}
-		_putchar(\n');
+		_putchar('\n');
 	}
 }
